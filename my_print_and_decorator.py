@@ -14,7 +14,7 @@ def name_and_args_of_func(func):
 
 
 @name_and_args_of_func
-def my_print(*args: any, sep=' ', end=' ') -> str:
+def my_print(*args: any, sep=' ', end='\n') -> str:
     """
     Функция, которая полностью повторяет системный print
     :param args: Символы для вывода
